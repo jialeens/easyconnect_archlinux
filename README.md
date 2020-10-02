@@ -1,0 +1,2 @@
+# easyconnect_archlinux
+基于deb版本安装的的深信服vpn客户端，适用于Archlinux
