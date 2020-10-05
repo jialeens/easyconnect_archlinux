@@ -14,5 +14,7 @@ clone https://github.com/jialeens/easyconnect_archlinux.git
 
 # TWO 已知问题
 
-1. 登录后，弹出的网页一直加载
+- 使用网页登录，浏览器无法打开客户端
+    - 直接打开easyconnect应用程序。
+- 登录后，弹出的网页一直加载
     - 可以先测试一下此时是否已经连接上vpn，如果已经连上，可以不用管。
