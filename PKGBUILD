@@ -8,9 +8,9 @@ arch=('x86_64')
 url="http://www.sangfor.com.cn"
 license=('custom')
 install=${pkgname}.install
-source=("http://download.sangfor.com.cn/download/product/sslvpn/pkg/linux_01/EasyConnect_x64.deb" //修改为自己的服务器安装包地址
+source=("http://download.sangfor.com.cn/download/product/sslvpn/pkg/linux_01/EasyConnect_x64.deb" 
         "pango-1.42.4.tar.xz")
-md5sums=('6ed6273f7754454f19835a456ee263e3' //重新计算md5
+md5sums=('6ed6273f7754454f19835a456ee263e3' 
         'deb171a31a3ad76342d5195a1b5bbc7c')
 package(){
         tar xzf data.tar.gz -C "${pkgdir}"
